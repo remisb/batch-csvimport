@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CsvimportApplication {
+public class CsvImportBatchApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CsvimportApplication.class, args);
+        SpringApplication.run(CsvImportBatchApplication.class, args);
     }
 }
