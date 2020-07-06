@@ -8,3 +8,8 @@ Batch process description and steps:
 - read content of the hardcoded csv file and extract Person and salary data from provided data file
 - increase salary by 10 percent and round it
 - data will stored into mysql database batch.person table
+
+## Code improvements
+
+Code improvements done base on information from youtubu presentation [High Performance Batch Processing](https://www.youtube.com/watch?v=J6IPlfm7N6w).
+

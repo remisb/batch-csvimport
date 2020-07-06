@@ -24,7 +24,7 @@ public class JobCompletionNotificationListener extends JobExecutionListenerSuppo
         if (jobExecution.getStatus() == BatchStatus.COMPLETED) {
             log.info("!!! JOB FINISHED! Time to verify the results");
             List<Person> results = this.jdbcTemplate.query(
-                    "SELECT person_id, first_name, last_name, salary FROM person",
+                    "SELECT person_id, first_name, last_name, salary FROM people",
                     (rs, row) -> new Person(rs.getInt(1),
                             rs.getString(2), rs.getString(3), rs.getInt(4)));
 
